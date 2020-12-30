@@ -61,8 +61,8 @@ public class Class_1 {
         // Bitwise or - |
         // Bitwise Compliment _ ~
 
-        int num1 = 60; //111100
-        int num2 = 42; //101010
+        int num1 = 100; //111100
+        int num2 = 200; //101010
                        //101000 => 40
                        //111110 => 62
 
@@ -73,6 +73,15 @@ public class Class_1 {
         // >  (num1 >= num2)
         // <  (num1 <= num2)
 
-        System.out.println(num1 & num2);
+        // If - Condition "5"
+
+        if (num1 < num2) {
+            System.out.println("num1 is bigger");
+        } else {
+            System.out.println("num1 is not bigger");
+        }
+        
+
+        ;
     }
 }
