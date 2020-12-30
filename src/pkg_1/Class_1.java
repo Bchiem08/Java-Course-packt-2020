@@ -1,33 +1,18 @@
 package JavaSampleProject1.src.pkg_1;
-
-import org.graalvm.compiler.core.common.type.ArithmeticOpTable.BinaryOp.Add;
-import org.graalvm.compiler.core.common.type.ArithmeticOpTable.BinaryOp.Div;
-import org.graalvm.compiler.core.common.type.ArithmeticOpTable.BinaryOp.Mul;
-
-import jdk.internal.loader.AbstractClassLoaderValue.Sub;
-
 public class Class_1 {
     public static void main(String[] args) {
 
         //Primitive Data Types in Java "1"
 
-        byte b1 = 123;
-
-        short sh1 = 7681;
-
+        // byte b1 = 123;
+        // short sh1 = 7681;
         int numb1 = 12312321;
-
-        long l1 = 4356789;
-
-        float f1 = 12.4567f;
-
-        double d1 = 123.5342534d;
-
-        char ch1 = 'A';
-
-        String str1 = "ASDFDESDF@@3$^&";
-
-        boolean b2 = true;
+        // long l1 = 4356789;
+        // float f1 = 12.4567f;
+        // double d1 = 123.5342534d;
+        // char ch1 = 'A';
+        // String str1 = "ASDFDESDF@@3$^&";
+        // boolean b2 = true;
 
         // Arithmetic Operators in Java "2"
 
@@ -66,7 +51,7 @@ public class Class_1 {
                        //101000 => 40
                        //111110 => 62
 
-        //Relational Operators in Java "4"
+        // Relational Operators in Java "4"
 
         // == (num1 == num2)
         // != (num1 != num2)
@@ -81,7 +66,28 @@ public class Class_1 {
             System.out.println("num1 is not bigger");
         }
         
+        // Nested If - Condition "6"
 
-        ;
+        // create a program to find the grade of the student
+        // Marks >= 90 => A Grade
+        // Marks >= 75 => B Grade
+        // Marks >= 60 => C Grade
+        // Marks >= 40 => D Grade
+        // Marks < 40 => Fail
+
+        int marks = 50;
+        
+        if (marks > 90) {
+            System.out.println("A Grade");
+        } else if (marks > 75) {
+            System.out.println("B Grade");
+        } else if (marks > 60) {
+            System.out.println("C Grade");
+        } else if (marks > 40) {
+            System.out.println("D Grade");
+        } else if (marks < 40) {
+            System.out.println("Fail");
+        }
+    
     }
 }
