@@ -1,5 +1,5 @@
 package JavaSampleProject1.src;
-public class Class_1 {
+public class PrimativeDataTypes {
     public static void main(String[] args) {
 
         // Primitive Data Types in Java "1"
