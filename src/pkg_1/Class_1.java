@@ -9,7 +9,7 @@ import jdk.internal.loader.AbstractClassLoaderValue.Sub;
 public class Class_1 {
     public static void main(String[] args) {
 
-        //Primitive Data Types in Java
+        //Primitive Data Types in Java "1"
 
         byte b1 = 123;
 
@@ -29,7 +29,7 @@ public class Class_1 {
 
         boolean b2 = true;
 
-        // Arithmetic Operators in Java
+        // Arithmetic Operators in Java "2"
 
         // + - Add
         // - - Sub
@@ -52,7 +52,7 @@ public class Class_1 {
         numb1/=5;
         numb1 = numb1/5 ;
 
-        // Logical and Bitwise Operators
+        // Logical and Bitwise Operators "3"
 
         // Logical AND - &&
         // Logical OR - ||
@@ -65,6 +65,13 @@ public class Class_1 {
         int num2 = 42; //101010
                        //101000 => 40
                        //111110 => 62
+
+        //Relational Operators in Java "4"
+
+        // == (num1 == num2)
+        // != (num1 != num2)
+        // >  (num1 >= num2)
+        // <  (num1 <= num2)
 
         System.out.println(num1 & num2);
     }
