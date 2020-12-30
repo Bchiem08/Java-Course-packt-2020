@@ -88,6 +88,23 @@ public class Class_1 {
         } else if (marks < 40) {
             System.out.println("Fail");
         }
-    
+        
+        // ASSIGNMENT - "6"
+        
+        // Create a program that determines the largest of 3 numbers
+        // int, n1, n2, n3
+        // 100, 400, 300
+
+        int n1 = 100;
+        int n2 = 400;
+        int n3 = 300;
+
+        if (n1 > n2 && n1 > n3) {
+            System.out.println("n1 is the largest");
+        } else if (n2 > n3) {
+            System.out.println("n2 is the largest");
+        } else {
+            System.out.println("n3 is the largest");
+        }
     }
 }
