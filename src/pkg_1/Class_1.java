@@ -15,7 +15,7 @@ public class Class_1 {
 
         short sh1 = 7681;
 
-        int num1 = 12312321;
+        int numb1 = 12312321;
 
         long l1 = 4356789;
 
@@ -30,43 +30,42 @@ public class Class_1 {
         boolean b2 = true;
 
         // Arithmetic Operators in Java
+
         // + - Add
-
         // - - Sub
-
         // * - Mul
-
         // / - Div
-
         // % - Mod
-
         // ++ - Inc
-
         // -- - Dec
-
-        int numb1 = 100;
-        int numb2 = 200;
-
-        int numb3 = numb1 % numb2;
 
         numb1++;
         numb1 = numb1 + 1;
-
         numb1--;
         numb1 = numb1 - 1;
-        
         numb1+=5;
-        numb1 = numb1 + 5 ;
-
+        numb1 = numb1 + 5;
         numb1-=5;
         numb1 = numb1 - 5 ;
-
         numb1*=2;
         numb1 = numb1*2 ;
-
         numb1/=5;
         numb1 = numb1/5 ;
 
-        System.out.println(numb3);
+        // Logical and Bitwise Operators
+
+        // Logical AND - &&
+        // Logical OR - ||
+        // Logical Not - !!
+        // Bitwise and - &
+        // Bitwise or - |
+        // Bitwise Compliment _ ~
+
+        int num1 = 60; //111100
+        int num2 = 42; //101010
+                       //101000 => 40
+                       //111110 => 62
+
+        System.out.println(num1 & num2);
     }
 }
