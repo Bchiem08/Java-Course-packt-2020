@@ -1,4 +1,4 @@
-package JavaSampleProject1.src;
+package JavaSampleProject1.src.Unit1;
 
 public class LogicalBitwiseOperators {
             // Logical and Bitwise Operators "3"

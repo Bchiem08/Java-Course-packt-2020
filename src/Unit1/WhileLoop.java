@@ -1,6 +1,6 @@
-package JavaSampleProject1.src;
+package JavaSampleProject1.src.Unit1;
 
-public class LoopBreakContinue {
+public class WhileLoop {
     
     public static void main(String[] args) {
 
@@ -8,18 +8,15 @@ public class LoopBreakContinue {
         
         // while (a > 50) {
         //     a-=5;
-        //     if ( a == 75) {
-        //         break;
-        //     }
         //     System.out.println(a);
         // }
 
-        while (a > 50) {
+        do {
+            
             a-=5;
-            if ( a == 75) {
-                continue;
-            }
             System.out.println(a);
-        }
+
+        } while (a > 50);
     }
 }
+ 
