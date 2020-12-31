@@ -1,7 +1,4 @@
 package JavaSampleProject1.src.Unit2;
-
-import javax.swing.text.Style;
-
 public class StringSearch {
 
     public static void main(String[] args) {

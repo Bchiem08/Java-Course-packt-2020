@@ -22,7 +22,7 @@ public class StringBasics {
 
         int num1 = 100;
 
-        // System.out.println(str1 + num1);
+        System.out.println(str1 + num1);
 
         System.out.println(str1.length());
 
