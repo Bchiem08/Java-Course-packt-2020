@@ -12,7 +12,7 @@ public class Methods {
      Methods m = new Methods();
      m.doThis();
      m.addition(100, 200);
-     int x = m.multiply(10, 20)
+     int x = m.multiply(10, 20);
      System.out.println(x);
 
     }
