@@ -5,7 +5,7 @@ public class AccessSpecifiers {
     /**
 	 * Public Access
 	 * Default Access / No Access Specifier
-	 * Private Access
+	 * Private Access - limited to the class itself
 	 * Protected Access
 	 */
 

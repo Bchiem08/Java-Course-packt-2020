@@ -7,7 +7,7 @@ public class AccessMain {
 		AccessSpecifiers ac = new AccessSpecifiers();
 		 ac.doThisPublic();
 		 ac.doThisDefault();
-		// ac.doThisPrivate(); //Not Allowed
+		// ac.doThisPrivate(); // Not Allowed
 
 	}
     
