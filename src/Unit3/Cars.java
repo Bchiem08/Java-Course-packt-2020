@@ -7,7 +7,7 @@ public class Cars {
     String type = "SUV";
 
     public void displayDetails() {
-        System.out.println("I have a" + make + " " + type + " of " + color + " color");
+        System.out.println("I have a " + make + " " + type + " of " + color + " color");
     }
     
 }
