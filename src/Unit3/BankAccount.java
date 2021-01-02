@@ -34,7 +34,7 @@ public class BankAccount {
     }
 
     public void displayCurrentBalance() {
-        System.out.println("Youre current balance is" + acBalance);
+        System.out.println("Youre current balance is " + acBalance);
     }
 
     public BankAccount(long acNo, String acName, double acBalance) {
