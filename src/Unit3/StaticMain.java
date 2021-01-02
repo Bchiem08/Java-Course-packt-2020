@@ -10,11 +10,13 @@ public class StaticMain {
 
         sk1.age = 7;
         sk1.grade = "2nd";
-        sk1.name = "Rob";
+        StaticKeyword.name = "Rob";
+        StaticKeyword.doThis();
 
         sk1.age = 8;
         sk1.grade = "3nd";
-        sk1.name = "Shay";
+        StaticKeyword.name = "Shay";
+        StaticKeyword.doThis();
 
         sk1.displayDetails();
         sk2.displayDetails();
