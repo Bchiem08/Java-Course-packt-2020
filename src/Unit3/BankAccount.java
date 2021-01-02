@@ -33,4 +33,14 @@ public class BankAccount {
         System.out.println("Cannot withdraw " + amt);
     }
 
+    public void displayCurrentBalance() {
+        System.out.println("Youre current balance is" + acBalance);
+    }
+
+    public BankAccount(long acNo, String acName, double acBalance) {
+        this.acNo = acNo;
+        this.acName = acName;
+        this.acBalance = acBalance;
+    }
+
 }
