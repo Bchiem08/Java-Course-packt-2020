@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class VarKeyword {
 
-    
     public static void main(String[] args) {
 
         int num1 = 100;
@@ -20,6 +19,10 @@ public class VarKeyword {
         int x = add(500,600);
  
         var y = add(500,600);
+
+        int [] arr = new int[10];
+
+        // var [] arr3 = {10,20,30,40,50};
 
 
     }
