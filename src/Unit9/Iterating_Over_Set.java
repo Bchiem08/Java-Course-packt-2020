@@ -4,8 +4,6 @@ import java.util.HashSet;
 import java.util.Iterator;
 import java.util.TreeSet;
 
-import jdk.nashorn.api.tree.Tree;
-
 
 public class Iterating_Over_Set {
 
